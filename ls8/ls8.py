@@ -6,6 +6,6 @@ import sys
 from cpu import *
 
 cpu = CPU()
-
-cpu.load()
+# print(sys.argv)
+cpu.load(f'{sys.argv[1]}')
 cpu.run()
