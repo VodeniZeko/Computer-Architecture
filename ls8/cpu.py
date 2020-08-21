@@ -199,4 +199,4 @@ class CPU:
             else:
                 print(
                     F" unknown instruction {instruction} at address {self.pc}")
-                sys.exit()  # halts the python program wherever it is
+                sys.exit() 
