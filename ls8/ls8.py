@@ -7,5 +7,5 @@ from cpu import *
 
 cpu = CPU()
 # print(sys.argv)
-cpu.load(f'{sys.argv[1]}')
+cpu.load()
 cpu.run()
